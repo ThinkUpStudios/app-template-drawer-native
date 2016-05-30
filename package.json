@@ -6,7 +6,7 @@
 	"readme": "NativeScript Application",
 	"repository": {
 		"type": "git",
-		"url": "git@github.com/telerik/nativescript-ui-samples-angular.git"
+		"url": "https://github.com/ThinkUpStudios/app-template-drawer-native.git"
 	},
 	"nativescript": {
 		"id": "org.nativescript.apptemplatedrawer",

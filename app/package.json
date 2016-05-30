@@ -6,7 +6,7 @@
         "name": "Telerik",
         "email": "support@telerik.com"
     },
-    "description": "Nativescript project that shows the NativeScript UI with Angular2",
+    "description": "Proyecto que sirve como template para crear aplicaciones con drawer.",
     "license": "Apache-2.0",
     "keywords": [
         "telerik",
@@ -23,9 +23,9 @@
         "url": "git@github.com/telerik/nativescript-ui-samples-angular.git"
     },
     "bugs": {
-        "url": "https://github.com/telerik/nativescript-ui-samples-angular/issues"
+        "url": "https://github.com/ThinkUpStudios/app-template-drawer-native/issues"
     },
-    "homepage": "https://github.com/telerik/nativescript-ui-samples-angular",
+    "homepage": "https://github.com/ThinkUpStudios/app-template-drawer-native",
     "android": {
         "v8Flags": "--expose_gc"
     },
