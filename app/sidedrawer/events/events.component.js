@@ -48,7 +48,6 @@ var AppComponent = (function () {
     };
     AppComponent.prototype.clickPromotions = function () {
         console.log('estoy en promociones');
-        this._router.navigate(["ListViewPullToRefresh"]);
     };
     AppComponent.prototype.clickImportant = function () {
         console.log('estoy en importantes');

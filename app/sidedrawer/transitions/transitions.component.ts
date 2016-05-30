@@ -5,6 +5,7 @@ import {Page} from "ui/page";
 import {ActionItem} from "ui/action-bar";
 import sideDrawerModule = require('nativescript-telerik-ui-pro/sidedrawer');
 import {RadSideDrawerComponent, SideDrawerType, MainTemplateDirective, DrawerTemplateDirective} from "nativescript-telerik-ui-pro/sidedrawer/angular/side-drawer-directives";
+import { Router, RouteParams } from "angular2/router";
 
 @Component({
     selector: "sidedrawer-transitions",
@@ -13,7 +14,7 @@ import {RadSideDrawerComponent, SideDrawerType, MainTemplateDirective, DrawerTem
 })
 // >> sidedrawer-angular-transition-definition
 export class AppComponent {
-    constructor(@Inject(Page) private page: Page) {
+    constructor(@Inject(Page) private page: Page, private _router: Router, private _routeParams: RouteParams) {
     }
 
     @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent;
@@ -67,4 +68,25 @@ export class AppComponent {
     private setDrawerTransition(transition: sideDrawerModule.DrawerTransitionBase) {
        this.sideDrawerTransition = transition;
     }
+    
+    public clickSocial() {
+        console.log('estoy en social');
+        this._router.navigate(["SideDrawerEvents"]);        
+    }
+    public clickPromotions() {
+        console.log('estoy en promociones')        
+    }
+    public clickImportant() {
+        console.log('estoy en importantes')
+    }
+    public clickStarred() {
+        console.log('estoy en la starred')
+    }
+    public clickMail() {
+        console.log('estoy en la mail')
+    }
+    public clickDrafts() {
+        console.log('estoy en la drafts')
+    }
+    
 }

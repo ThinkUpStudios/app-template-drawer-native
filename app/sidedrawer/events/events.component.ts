@@ -55,7 +55,7 @@ export class AppComponent {
     }
     public clickPromotions() {
         console.log('estoy en promociones')
-        this._router.navigate(["ListViewPullToRefresh"]);
+        
     }
     public clickImportant() {
         console.log('estoy en importantes')

@@ -8,13 +8,13 @@
             </StackLayout>
             <StackLayout style="background-color: gray;">
                 <Label text="Primary" style="padding: 10px;background-color:lightgray;"></Label>
-                <Label text="Social" style="padding: 10px;"></Label>
-                <Label text="Promotions" style="padding: 10px;"></Label>
+                <Label text="Social" style="padding: 10px;" (tap)=clickSocial()></Label>
+                <Label text="Promotions" style="padding: 10px;" (tap)=clickPromotions()></Label>
                 <Label text="Labels" style="padding:10px;background-color: lightgray;"></Label>
-                <Label text="Important" style="padding: 10px;"></Label>
-                <Label text="Starred" style="padding: 10px;"></Label>
-                <Label text="Sent Mail" style="padding: 10px;"></Label>
-                <Label text="Drafts" style="padding: 10px;"></Label>
+                <Label text="Important" style="padding: 10px;" (tap)=clickImportant()></Label>
+                <Label text="Starred" style="padding: 10px;" (tap)=clickStarred()></Label>
+                <Label text="Sent Mail" style="padding: 10px;" (tap)=clickMail()></Label>
+                <Label text="Drafts" style="padding: 10px;" (tap)=clickDrafts()></Label>
             </StackLayout>
        </StackLayout>
     </template>

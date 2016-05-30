@@ -14,9 +14,12 @@ var core_1 = require("angular2/core");
 var page_1 = require("ui/page");
 var sideDrawerModule = require('nativescript-telerik-ui-pro/sidedrawer');
 var side_drawer_directives_1 = require("nativescript-telerik-ui-pro/sidedrawer/angular/side-drawer-directives");
+var router_1 = require("angular2/router");
 var AppComponent = (function () {
-    function AppComponent(page) {
+    function AppComponent(page, _router, _routeParams) {
         this.page = page;
+        this._router = _router;
+        this._routeParams = _routeParams;
         this.sideDrawerTransition = new sideDrawerModule.PushTransition();
     }
     // << sidedrawer-angular-transition-definition
@@ -56,6 +59,25 @@ var AppComponent = (function () {
     AppComponent.prototype.setDrawerTransition = function (transition) {
         this.sideDrawerTransition = transition;
     };
+    AppComponent.prototype.clickSocial = function () {
+        console.log('estoy en social');
+        this._router.navigate(["SideDrawerEvents"]);
+    };
+    AppComponent.prototype.clickPromotions = function () {
+        console.log('estoy en promociones');
+    };
+    AppComponent.prototype.clickImportant = function () {
+        console.log('estoy en importantes');
+    };
+    AppComponent.prototype.clickStarred = function () {
+        console.log('estoy en la starred');
+    };
+    AppComponent.prototype.clickMail = function () {
+        console.log('estoy en la mail');
+    };
+    AppComponent.prototype.clickDrafts = function () {
+        console.log('estoy en la drafts');
+    };
     __decorate([
         core_1.ViewChild(side_drawer_directives_1.RadSideDrawerComponent), 
         __metadata('design:type', (typeof (_a = typeof side_drawer_directives_1.RadSideDrawerComponent !== 'undefined' && side_drawer_directives_1.RadSideDrawerComponent) === 'function' && _a) || Object)
@@ -67,7 +89,7 @@ var AppComponent = (function () {
             templateUrl: 'sidedrawer/transitions/transitions.component.html'
         }),
         __param(0, core_1.Inject(page_1.Page)), 
-        __metadata('design:paramtypes', [page_1.Page])
+        __metadata('design:paramtypes', [page_1.Page, router_1.Router, router_1.RouteParams])
     ], AppComponent);
     return AppComponent;
     var _a;
