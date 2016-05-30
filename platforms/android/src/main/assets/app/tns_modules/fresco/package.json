@@ -1,0 +1,32 @@
+{
+  "name": "fresco",
+  "version": "0.1.0",
+  "description": "This is a NativeScript plugin wrapping the popular Fresco library for managing images on Android.",
+  "main": "fresco.js",
+  "files": [
+    "fresco/*.js",
+    "platforms"
+  ],
+  "nativescript": {
+    "ios": "^1.5.0",
+    "android": "^1.5.0"
+  },
+  "dependencies": {
+    "tns-core-modules": "^1.5.2"
+  },
+  "keywords": [
+    "fresco",
+    "android",
+    "nativescript"
+  ],
+  "author": {
+    "name": "Deyan.Ginev@telerik.com"
+  },
+  "license": "ISC",
+  "readme": "# Welcome to `nativescript-fresco`\n\n## What is `nativescript-fresco`?\n`nativescript-fresco` is a NativeScript plugin that exposes the Fresco library used for efficiently displaying images on Android. More information about what Fresco is and how it works is available on its official website here:\n\nhttps://code.facebook.com/posts/366199913563917/introducing-fresco-a-new-image-library-for-android/\n\nThe `nativescript-fresco` plugin enables NativeScript developers to use the `FrescoDrawee` class which is extends the traditional Android ImageView component and adds the smart Fresco image management algorithms. The plugin exposes the drawee as a NativeScript view so you basically put it in the XML definition of your page and provide the URI to the image you would like to use.\n\n## How to use `nativescript-fresco`?\n1. Clone the repository and go to the root directory on your computer.\n2. Use `tsc` to transpile the `.ts` sources: `tsc -p`.\n3. Go to the root folder of your {N} application where you would like to install the plugin and type `tns plugin add <path-to-fresco-repo-dir>`.\n4. Initialize `fresco` in the `launch` event of your {N} application by using the following code:\n```JavaScript\nvar application = require(\"application\");\nif (application.android) {\n    application.onLaunch = function (intent) {\n        com.facebook.drawee.backends.pipeline.Fresco.initialize(application.android.context);\n    };\n}\n```\nUse `fresco` in the XML definition of the page as follows:\n```XML\n<Page\n    xmlns=\"http://www.nativescript.org/tns.xsd\" xmlns:f=\"fresco/fresco\">\n    <f:FrescoDrawee\n        horizontalAlignment=\"stretch\"\n        height=\"250\"\n        imageUri=\"<uri-to-a-photo-from-the-web-or-a-local-resource>\"/>\n</Page>\n```\n",
+  "readmeFilename": "README.md",
+  "_id": "fresco@0.1.0",
+  "_shasum": "3bbb40e831ad12ed7ce108d68013a40362c26552",
+  "_resolved": "file:deps\\fresco-0.1.0.tgz",
+  "_from": "deps\\fresco-0.1.0.tgz"
+}

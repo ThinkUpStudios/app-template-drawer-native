@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\res\\merged\\nativescript-frescoNativescript-telerik-ui\\debug\\layout-v11\\simple_list_item.xml",
+        "source": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.2.510-dev-release\\res\\layout-v11\\simple_list_item.xml"
+    },
+    {
+        "merged": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\res\\merged\\nativescript-frescoNativescript-telerik-ui\\debug\\layout-v11\\on_demand_manual.xml",
+        "source": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\exploded-aar\\List-2016.2.510-dev-release\\res\\layout-v11\\on_demand_manual.xml"
+    }
+]

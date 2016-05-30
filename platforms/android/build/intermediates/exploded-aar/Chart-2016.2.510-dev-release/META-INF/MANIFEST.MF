@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_45 (Oracle Corporation)
+
+Name: res/values/values.xml
+SHA1-Digest: 0p6UUEpsBNd2228ja0HKNH85Qgg=
+
+Name: res/layout/legend_item_view.xml
+SHA1-Digest: hlqpg90rQF9/GSgQqzO8BizjLA0=
+
+Name: res/xml/chart_palettes_default_light.xml
+SHA1-Digest: HVifzBSN+ngBjSPQYiQGMhATDGg=
+
+Name: classes.jar
+SHA1-Digest: TS/HCB+1W0k6WqoXoQ7JJaOM8GU=
+
+Name: res/layout/default_trackball_content.xml
+SHA1-Digest: GEw+LniTQMQre/OGQJiUEux+ry4=
+
+Name: res/layout/default_tooltip_scatter_bubble_content.xml
+SHA1-Digest: nzZHq/KGg3rCsu5IvzhAykFzEJ4=
+
+Name: res/layout/default_trackball_item_content.xml
+SHA1-Digest: EUXgqzzFVRmgJySRcKEzQl0q7oc=
+
+Name: res/layout/range_trackball_item_content.xml
+SHA1-Digest: UelGZuHk3blVcZuaenvCw1yFnIY=
+
+Name: res/layout/default_tooltip_scatter_content.xml
+SHA1-Digest: lv3WHkEPx6fgs0rYJ4cqhV4W13w=
+
+Name: res/layout/default_tooltip_ohlc_content.xml
+SHA1-Digest: 4kUlwWVgzTqKryQprQ64MaWJo3o=
+
+Name: AndroidManifest.xml
+SHA1-Digest: pygaWA5P2h+4uOTqAWrBQNv2wuk=
+
+Name: aapt/AndroidManifest.xml
+SHA1-Digest: pygaWA5P2h+4uOTqAWrBQNv2wuk=
+
+Name: res/layout/radlegendcontrol.xml
+SHA1-Digest: /JHZb3IZ4jDv2TBHGy+cjMEWdFM=
+
+Name: res/xml/chart_palettes_default_dark.xml
+SHA1-Digest: 68O9h36a2KhTGUENIPMJbC4uOko=
+
+Name: res/layout/ohlc_trackball_item_content.xml
+SHA1-Digest: WwTeqTMppcdmOX4BiPjRadALxTw=
+
+Name: res/layout/radchartbase.xml
+SHA1-Digest: MuArwT9AWlhOKt5zJOcBkudSVbs=
+
+Name: res/layout/trackball_container.xml
+SHA1-Digest: 5NBW040kKfk2qI3OTzChUh2WLyA=
+
+Name: res/xml/chart_palettes_dark_selected.xml
+SHA1-Digest: RBMoxiUBkphitOrXSB8vx74aRhM=
+
+Name: R.txt
+SHA1-Digest: NFNglTVVcEG3GBxDtaWkeBK7AIY=
+
+Name: res/xml/chart_palettes_light_selected.xml
+SHA1-Digest: 1Cj2F4u/oUBqaiduKNfrt1ZdhPg=
+

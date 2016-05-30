@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\res\\merged\\nativescript-frescoNativescript-telerik-ui\\debug\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "F:\\personal\\app-template-drawer\\platforms\\android\\build\\intermediates\\exploded-aar\\Input-2016.2.510-dev-release\\res\\values-sw720dp\\values-sw720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endColumn": 55,
+                        "endOffset": 237
+                    }
+                }
+            }
+        ]
+    }
+]
